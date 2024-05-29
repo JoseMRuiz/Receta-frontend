@@ -7,8 +7,65 @@ body{
     margin:5%;
     padding:5%;
     border-radius:0.5rem;
+    
+}
+
+.container2{
+    background-color:hsl(330, 100%, 98%);
 }
 
 .image{
+    display:grid;
+    place-items: center;
     width:100%;
 }
+
+
+.titulo{
+    font-family: "Young Serif", serif;
+    font-size:3rem;
+    
+}
+
+.titulo2{
+    color:hsl(332, 51%, 32%);
+}
+
+.p{
+    font-size:25px;
+}
+
+.ol {
+    list-style-type: disc;
+    color:hsl(332, 51%, 32%);
+    
+}
+
+.contenedor-lista {
+    display: flex;
+    justify-content: flex-start;
+    color: hsl(24, 5%, 18%);
+    margin-left:20px;
+}
+
+
+.ol1{
+    list-style-type: disc;
+    color:hsl(30, 10%, 34%);
+}
+
+
+
+
+
+.negrita{
+    font-weight:bold;
+}
+
+.titulo3{
+        font-family: "Young Serif", serif;
+        font-size:3rem;
+        color:hsl(14, 45%, 36%); 
+}
+
+
