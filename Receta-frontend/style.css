@@ -35,9 +35,37 @@ body{
     font-size:25px;
 }
 
+.p2{
+    font-size:25px;
+    color:hsl(14, 45%, 36%); 
+    font-weight: 1000;
+    margin-left:40%;
+}
+
+.p3{
+    font-size:25px;
+    color:hsl(14, 45%, 36%); 
+    font-weight: 1000;
+    margin-left:42%;
+}
+.p4{
+    font-size:25px;
+    color:hsl(14, 45%, 36%); 
+    font-weight: 1000;
+    margin-left:41%;
+}
+
+.p5{
+    font-size:25px;
+    color:hsl(14, 45%, 36%); 
+    font-weight: 1000;
+    margin-left:45.3%;
+}
+
 .ol {
     list-style-type: disc;
     color:hsl(332, 51%, 32%);
+    
     
 }
 
@@ -50,12 +78,16 @@ body{
 
 
 .ol1{
-    list-style-type: disc;
+    list-style-type: none;
     color:hsl(30, 10%, 34%);
+    border-bottom: 1px solid hsl(30, 10%, 34%);
 }
 
-
-
+.ol2{
+    list-style-type: number;
+    color:hsl(14, 45%, 36%) ;
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+};
 
 
 .negrita{
@@ -66,6 +98,11 @@ body{
         font-family: "Young Serif", serif;
         font-size:3rem;
         color:hsl(14, 45%, 36%); 
+}
+
+.lista1{
+    display:flex;
+    justify-content: flex-start;
 }
 
 
